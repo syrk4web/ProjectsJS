@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(58, 67, 77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.text--container {
+  width: 70%;
+  height: auto;
+  max-width: 500px;
+  background-color: rgb(234, 245, 255);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 3px 3px 2px black;
+  text-align: center;
+  vertical-align: center;
+  margin: 1rem 0;
+}
+
+.text--length__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.text--input {
+  height: 4rem;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  width: 50%;
+  word-break: break-all;
+  vertical-align: center;
+}
+
+.start {
+  margin: 1rem 0;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.2rem;
+  background-color: rgb(33, 82, 124);
+  color: white;
+}
+
+.text--result__container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.text--result {
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+}
+
+.text--result__output {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(194, 201, 226);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.result {
+  margin: 0;
+  padding: 1rem;
+}

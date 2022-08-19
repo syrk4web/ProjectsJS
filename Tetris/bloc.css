@@ -1,0 +1,51 @@
+.bg-LR {
+  background-color: #f0a000;
+}
+
+.bg-L {
+  background-color: #0000f0;
+}
+
+.bg-rod {
+  background-color: #00f0f0;
+}
+
+.bg-cube {
+  background-color: #f0f000;
+}
+
+.bg-Z {
+  background-color: #00f000;
+}
+
+.bg-ZR {
+  background-color: #f00000;
+}
+
+.deb-shadow {
+  box-shadow: inset 5em 1em rgb(58, 57, 53) !important;
+}
+
+@media (max-width: 575.98px) {
+  .line-dimension {
+    height: 26px;
+  }
+}
+
+@media (min-width: 575.98px) and (max-width: 768px) {
+  .line-dimension {
+    height: 34px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .line-dimension {
+    height: 34px;
+  }
+}
+
+@media (min-width: 1199.98px) {
+  .line-dimension {
+    height: 36px;
+  }
+}

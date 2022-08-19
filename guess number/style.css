@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(58, 67, 77);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+h1 {
+  color: white;
+}
+
+.main--container {
+  width: 70%;
+  height: auto;
+  max-width: 500px;
+  background-color: rgb(234, 245, 255);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 3px 3px 2px black;
+  text-align: center;
+  vertical-align: center;
+  margin: 1rem 0;
+}
+
+.num--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.num--container input {
+  width: 2rem;
+  height: 1.2rem;
+  margin: 0 1rem;
+}
+
+#start {
+  margin: 1rem 0;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.2rem;
+  background-color: rgb(33, 82, 124);
+  color: white;
+}
+
+.text--result__container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.main--state {
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.main--attempt {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main--attempt p {
+  margin: 0 0.2rem;
+  padding: 0;
+}
